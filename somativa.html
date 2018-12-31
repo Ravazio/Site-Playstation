@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Playstation</title>
+	<link rel="shortcut icon" href="imagens/logo.png">
+	<link rel="stylesheet" href="css/bootstrap.min.css" alt="logo aba">
+    <link rel="stylesheet" href="css/somativa.css">
+    <script src="js/jquery-3.2.1.min.js"></script>        
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+	<!--Cabeçalho-->
+	<header>
+			<div id="barra">
+				<nav class="navbar navbar-light navbar-expand-md navbar-dark">
+					<a class="navbar-brand" href="#"><img src="imagens/logo-completo.png" alt="logo barra" style="width: 250px;"></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuSuperior" aria-controls="menuSuperior" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="menuSuperior">
+						<ul class="navbar-nav mr-auto ml-auto">
+							<li class="nav-item active">
+								<a class="nav-link" href="#titulo-jogos">JOGOS<span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#titulo-tecnologia">TECNOLOGIA</a>
+							</li>
+							<li class="nav-item">
+									<a class="nav-link" href="#titulo-multi">ONLINE</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#titulo-cadastro">NEWSLETTER</a>
+							</li>
+						</ul>
+
+						<div id="pesquisa">
+							<form class="form-inline my-2 my-lg-0">
+								<input class="form-control mr-sm-2" type="text" placeholder="Pesquise nossos jogos" style="border-radius: 40px;">
+								<button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="border-radius: 40px; border-width: 4px; font-size: 20px;">Pesquisar</button>
+							</form>
+						</div>
+					</div>
+				</nav>
+			</div>	
+	    </header>
+
+	    <main id="site">
+	    	<div id="escopo">
+	    		<img id="logo" src="imagens/logo-nome-branco.png" alt="logo">
+	    		<img id="consoles" src="imagens/consoles-2.png" alt="consoles">
+	    		<h1 id="best">THE BEST PLACE TO PLAY</h1>
+	    	</div>
+
+	    	<div class="hr"><hr /></div>
+			
+			<h1 id="titulo-jogos">Viva aventuras exclusivas!</h1>
+				<p id="paragrafo-jogos">Você veio ao lugar certo. Jogos exclusivos irão te levar a incríveis jornadas, desde indies aclamados pela crítica até premiados sucessos AAA.</p>
+
+				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+				  <ol class="carousel-indicators">
+				    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+				  </ol>
+				  <div class="carousel-inner">
+				    <div class="carousel-item active">
+				      <img class="d-block w-100" src="imagens/uncharted.jpg" alt="Primeiro slide">
+						  <div class="carousel-caption d-none d-md-block">
+						    <h3 id="uncharted-titulo">Uncharted 4 : A Thief's End</h3>
+						    <p id="uncharted-paragrafo">Muitos anos após sua última Aventura, o aposentado caçador de recompensas Nathan Drake é forçado a retornar ao mundo dos ladrões. Com apostas muito mais pessoais, Drake embarca em uma itinerante jornada em busca de uma conspiração histórica por trás de um tesouro de pirata lendário.</p>
+						  </div>
+				    </div>
+				    <div class="carousel-item">
+				      <img class="d-block w-100" src="imagens/horizon.jfif" alt="Secundo slide">
+				      <div class="carousel-caption d-none d-md-block">
+						    <h3 id="horizon-titulo">Horizon : Zero Dawn</h3>
+						    <p id="horizon-paragrafo">Embarque em uma jornada envolvente e sentimental para descobrir mistérios de sociedades tribais, artefatos da Antiguidade e tecnologias avançadas que determinarão o destino do nosso planeta e da própria vida.</p>
+						  </div>
+				    </div>
+				    <div class="carousel-item">
+				      <img class="d-block w-100" src="imagens/guardian.jpg" alt="Terceiro slide">
+				      <div class="carousel-caption d-none d-md-block">
+						    <h3 id="guardian-titulo">The Last Guardian</h3>
+						    <p id="guardian-paragrafo">Em uma nação mística e incomum, um garoto descobre uma misteriosa criatura, com quem ele forma um vínculo profundo e indestrutível. A dupla improvável deve ter confiança mútua para escapar de ruínas elevadas e traiçoeiras, repletas de perigos desconhecidos. Vivencie a jornada de uma vida nessa história comovente e sentimental de amizade e confiança.</p>
+						  </div>
+				    </div>
+				  </div>
+				  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Previous</span>
+				  </a>
+				  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Next</span>
+				  </a>
+				</div>
+
+			<div class="hr"><hr /></div>
+
+			<div id="tecnologia">
+				<h1 id="titulo-tecnologia">Tecnologia de Ponta</h1>
+				<p id="paragrafo-tecnologia">O sistema PlayStation®4 foi totalmente reprojetado para assegurar assegurar que os criadores de jogos possam liberar sua imaginação para desenvolver os melhores jogos e proporcionar experiências nunca alcançadas.</p>
+				<p id="paragrafo-tecnologia-2">Com processadores personalizados de altíssima velocidade e 8 GB de memória de sistema unificada e de alto desempenho, o PS4™ é o ambiente ideal para jogos com gráficos complexos de alta fidelidade e experiências profundamente envolventes, que vão além das expectativas.</p>
+				<video id="hardware" width="590" height="510" autoplay="autoplay" muted loop="loop">
+	  				<source src="videos/PLAYSTATION 4 HARDWARE.mp4" type="video/mp4">
+				</video>
+
+				<video id="hardware-2" width="590" height="510" autoplay="autoplay" muted loop="loop">
+	  				<source src="videos/DUALSHOCK 4.mp4" type="video/mp4">
+				</video>
+
+				<div class="hr"><hr /></div>
+
+				<div id="vr">
+				<h1 id="titulo-vr">Descubra um novo mundo!</h1>
+				<p id="paragrafo-vr">Redefina suas expectativas de imersão em jogos com momentos tão intensos que sua intuição assume. Entre em mundos virtuais incríveis e experimente o entretenimento de maneiras novas e extraordinárias.</p>
+
+				<p id="paragrafo-vr-2">O fone de ouvido PlayStation®VR foi projetado para ser equilibrado, confortável e completamente ajustável. É projetado para sentir que não existe - mantendo você livre de distração enquanto você explora novos mundos de jogos.</p>
+
+				<img id="vr-img" src="imagens/vr.png" alt="vr">
+				</div>
+
+				<div class="hr"><hr /></div>
+
+				<div id="multi">
+					<h1 id="titulo-multi">Junte-se com seus amigos!</h1>
+					<p id="paragrafo-multi">O PlayStation Plus o conecta com a melhor comunidade online de jogadores. Então, junte-se ou compita com seus amigos em todos os seus jogos de multiplayer PS4 favoritos!</p>
+					<img id="multi-img" src="imagens/jogando.png" alt="multiplayer">
+				</div>
+				<div id="espacamento-1">
+					<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+				</div>
+
+				<div class="hr"><hr /></div>
+
+				<div id="galeria">
+					<h1 id="titulo-play">Isso é Playstation!</h1>
+					<video id="trailer" autoplay="autoplay" muted loop="loop">
+	  				<source src="videos/PlayStation 4.mp4" type="video/mp4">
+					</video>
+				</div>
+
+				<div id="espacamento-2">
+					<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+				</div>
+
+				<div id="galeria-imagens-1">
+				  <a target="_blank" href="imagens/controle-e-console.jpg">
+				    <img src="imagens/controle-e-console.jpg" alt="console e controle">
+				  </a>
+				</div>
+
+				<div id="galeria-imagens-2">
+				  <a target="_blank" href="imagens/botão.jpg">
+				    <img src="imagens/botão.jpg" alt="botão power zoom">
+				  </a>
+				</div>
+
+				<div id="galeria-imagens-3">
+				  <a target="_blank" href="imagens/cd.jpg">
+				    <img src="imagens/cd.jpg" alt="cd">
+				  </a>
+				</div>
+
+				<div id="galeria-imagens-4">
+				  <a target="_blank" href="imagens/controle.png">
+				    <img src="imagens/controle.png" alt="controle">
+				  </a>
+				</div>
+
+				<div id="espacamento-3">
+					<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+				</div>
+			</div>
+
+			<div class="hr"><hr /></div>
+
+			<div id="cadastro">
+					<h1 id="titulo-cadastro">Cadastre-se</h1>
+					<p id="paragrafo-cadastro">Faça o seu cadastro na Playstation Network para entrar na comunidade e participar das novidades. Confira o catálogo de jogos online e as promoções disponiveis. Tá esperando o quê? É fácil e grátis!</p>
+
+					<form id="nome-e-id">
+					  <div class="form-row align-items-center">
+					    <div class="col-sm-3">
+					      <label class="sr-only" for="inlineFormInputName">Nome</label>
+					      <input type="text" class="form-control mb-2 mb-sm-0" id="inlineFormInputName" placeholder="Nome">
+					    </div>
+					    <div class="col-sm-3">
+					      <label class="sr-only" for="inlineFormInputGroupUsername">ID</label>
+					      <div class="input-group mb-2 mb-sm-0">
+					        <div class="input-group-addon">@</div>
+					        <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="ID">
+					      </div>
+					    </div>
+					  </div>
+					</form>
+				</div>
+
+				<form class="container" id="needs-validation" novalidate>
+				  <div class="row">
+				    <div class="col-md-6 mb-3">
+				      <label for="validationCustom01"></label>
+				      <input type="text" class="form-control" id="validationCustom01" placeholder="Email" required>
+				    </div>
+				    <div class="col-md-6 mb-3">
+				      <label for="validationCustom02"></label>
+				      <input type="text" class="form-control" id="validationCustom02" placeholder="Senha" required>
+				    </div>
+				  </div>
+				  <div class="row">
+				    <div class="col-md-6 mb-3">
+				      <label for="validationCustom03"></label>
+				      <input type="text" class="form-control" id="validationCustom03" placeholder="País" required>
+				    </div>
+				    <div class="col-md-3 mb-3">
+				      <label for="validationCustom04"></label>
+				      <input type="text" class="form-control" id="validationCustom04" placeholder="Estado" required>
+				    </div>
+				    <div class="col-md-3 mb-3">
+				      <label for="validationCustom05"></label>
+				      <input type="text" class="form-control" id="validationCustom05" placeholder="Cidade" required>
+				    </div>
+				  </div>
+
+				  <div id="sexo" class="custom-controls-stacked">
+					  <label class="custom-control custom-radio">
+					    <input id="radioStacked3" name="radio-stacked" type="radio" class="custom-control-input">
+					    <span class="custom-control-indicator"></span>
+					    <span class="custom-control-description">Masculino</span>
+					  </label>
+					  <label class="custom-control custom-radio">
+					    <input id="radioStacked4" name="radio-stacked" type="radio" class="custom-control-input">
+					    <span class="custom-control-indicator"></span>
+					    <span class="custom-control-description">Feminino</span>
+					  </label>
+					</div>
+
+				  	<label id="concordo" class="custom-control custom-checkbox">
+					  <input type="checkbox" class="custom-control-input">
+					  <span class="custom-control-indicator"></span>
+					  <span class="custom-control-description">Concordo com os Termos de Licença</span>
+					</label>
+
+				  <button id="enviar" class="btn btn-primary" type="Enviar" style="background-color: #29abe2;">Enviar</button>
+				</form>
+
+				<img id="kratos" src="imagens/kratos.png" alt="kratos">
+	    </main>
+
+	    <footer>
+	    	 <div id="rodape">
+	    	 	<img id="logo-rodape" src="imagens/logo-branco.png" alt="logo">
+                <p>© 2017 Sony Interactive Entertainment America LLC</p>
+				<p>Todos os direitos reservados.</p>
+				<p id="autor">@Author: Victor Ravazio de Lima</p>
+				<a href="#escopo"><img id="voltar" src="imagens/voltar.png" alt="voltar ao topo"></a>
+            </div>
+	    </footer>
+</body>
+</html>

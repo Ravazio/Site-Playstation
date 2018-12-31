@@ -1,0 +1,357 @@
+@font-face {
+    font-family:'ZrnicRg-Regular';
+    src: url('../ZrnicRg-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#barra{
+    background: linear-gradient(#0072ce, #003087); 
+    font-size: 35px;
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    font-family: "ZrnicRg-Regular";
+}
+
+#site{
+    background: url(../imagens/fundo.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+	-o-background-size: cover;
+ 	background-size: cover;
+ 	padding-top: 70px;
+ }
+
+ #logo{
+ 	margin-top: 100px;
+ 	width: 30%;
+ 	height: 30%;
+ 	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#consoles{
+ 	width: 50%;
+ 	height: 50%;
+ 	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#best{
+	font-size: 75px;
+	color: white;
+	margin-top: 15px;
+	margin-left: auto;
+    margin-right: auto;
+    width: 12em
+}
+
+div.hr {
+background: #fff  no-repeat scroll center;
+margin-top: 50px;
+margin-left: auto;
+margin-right: auto;
+width:110em;
+height:0.5em;
+}
+
+div.hr hr {
+display: none;
+}
+
+#titulo-jogos{
+	margin-top: 40px;
+	font-family: "ZrnicRg-Regular";
+	margin-left: 70px;
+	font-size: 75px;
+	color: white;
+}
+
+#paragrafo-jogos{
+	margin-left: 70px;
+	margin-right: 70px;
+	margin-top: 20px;
+	font-size: 40px;
+	color: white;
+}
+
+#uncharted-titulo{
+	font-size: 60px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#uncharted-paragrafo{
+	font-size: 25px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#horizon-titulo{
+	font-size: 60px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#horizon-paragrafo{
+	font-size: 25px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#guardian-titulo{
+	font-size: 60px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#guardian-paragrafo{
+	font-size: 25px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#carouselExampleIndicators{
+	margin-left: auto;
+	margin-right: auto;
+	width: 93%;
+	height: 93%;
+	position: relative;
+	z-index: 1;
+}
+
+#titulo-tecnologia{
+	margin-top: 40px;
+	font-family: "ZrnicRg-Regular";
+	margin-left: 70px;
+	font-size: 75px;
+	color: white;
+}
+
+#paragrafo-tecnologia{
+	text-align: right;
+	width: 50%;
+	margin-top: 50px;
+	margin-left: 2px;
+	font-size: 40px;
+	color: white;
+}
+
+#paragrafo-tecnologia-2{
+	text-align: left;
+	width: 50%;
+	margin-top: 100px;
+	margin-left: 950px;
+	margin-right: 300px;
+	font-size: 40px;
+	color: white;
+
+}
+
+#hardware{
+	
+	position: absolute;
+	margin-left: 1100px;
+	margin-right: 10px;
+	margin-top: -850px;
+}
+
+#hardware-2{
+	
+	position: absolute;
+	margin-left: 170px;
+	margin-right: 10px;
+	margin-top: -430px;
+}
+
+#titulo-vr{
+	margin-top: 40px;
+	font-family: "ZrnicRg-Regular";
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 75px;
+	color: white;
+    width: 12em;
+}
+
+#paragrafo-vr{
+	text-align: right;
+	width: 50%;
+	margin-top: 50px;
+	margin-left: 850px;
+	margin-right: 80px;
+	font-size: 40px;
+	color: white;
+}
+
+#paragrafo-vr-2{
+	text-align: right;
+	width: 50%;
+	margin-top: 80px;
+	margin-left: 850px;
+	margin-right: 80px;
+	font-size: 40px;
+	color: white;
+}
+
+#vr-img{
+	position: absolute;
+	margin-top: -590px;
+	margin-left: 200PX;
+	height: 65%;
+}
+
+#titulo-multi{
+	margin-top: 40px;
+	font-family: "ZrnicRg-Regular";
+	position: absolute;
+	margin-left: 90px;
+	font-size: 75px;
+	color: white;
+	z-index: 2;
+}
+
+#paragrafo-multi{
+	z-index: 2;
+	text-align: left;
+	position: absolute;
+	width: 50%;
+	margin-top: 150px;
+	margin-left: 90px;
+	margin-right: 1500px;
+	font-size: 40px;
+	color: white;
+}
+
+#multi-img{
+	position: absolute;
+	z-index: 1;
+	width: 93%;
+	margin-left: 70px;
+}
+
+#trailer{
+	position: absolute;
+	z-index: 1;
+	width: 93%;
+	margin-top: 0px;
+	margin-left: 70px;
+}
+
+#titulo-play{
+	margin-top: 40px;
+	font-family: "ZrnicRg-Regular";
+	font-size: 100px;
+	color: white;
+    width: 12em;
+    position: absolute;
+    z-index: 2;
+	margin-left: 600px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#galeria-imagens-1 img{
+	width: 588px;
+	height: 380px;
+	position: absolute;
+	z-index:1;
+	margin-top:100px;
+	margin-left: 350px;
+}
+
+#galeria-imagens-2 img{
+	width: 588px;
+	height: 380px;
+	position: absolute;
+	z-index:1;
+	margin-top:100px;
+	margin-left: 1000px;
+}
+
+#galeria-imagens-3 img{
+	width: 588px;
+	height: 380px;
+	position: absolute;
+	z-index:1;
+	margin-top:500px;
+	margin-left: 350px;
+}
+
+#galeria-imagens-4 img{
+	width: 588px;
+	height: 380px;
+	position: absolute;
+	z-index:1;
+	margin-top:500px;
+	margin-left: 1000px;
+}
+
+#titulo-cadastro{
+	margin-top: 40px;
+	font-family: "ZrnicRg-Regular";
+	margin-left: 90px;
+	font-size: 75px;
+	color: white;
+}
+
+#paragrafo-cadastro{
+	text-align: left;
+	margin-top: 30px;
+	margin-left: 90px;
+	margin-right: 500px;
+	font-size: 40px;
+	color: white;
+}
+
+#nome-e-id{
+	margin-left: 90px;
+	margin-bottom: 20px;
+}
+
+#needs-validation{
+	margin-left: 75px;
+}
+
+#sexo{
+	font-size: 25px;
+	color: white;
+}
+
+#concordo{
+	font-size: 20px;
+	color: white;
+}
+
+#enviar{
+	margin-left: 930px;
+	margin-bottom: 10px;
+	width: 7em;
+    height: 3em;
+    font-size: 25px;
+}
+
+#kratos{
+	position: absolute;
+	margin-top: -622px;
+	margin-left: 1200PX;
+	height: 65%;
+}
+
+#rodape{
+width: 100%;
+font-size: 25px;
+color: white;
+background-color: #29abe2;
+}
+
+#logo-rodape{
+	width: 180px;
+	float: left;
+}
+
+#autor{
+	margin-bottom: 0px;
+}
+
+#voltar{
+	position: absolute;
+	margin-left: 1600px;
+	margin-top: -80px;
+}
